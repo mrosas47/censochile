@@ -1,0 +1,26 @@
+{
+    "id": "734D3BC8",
+    "path": "//192.168.1.47/nexus/work/censochile/R/descarga_censo.R",
+    "project_path": null,
+    "type": "r_source",
+    "hash": "3221680186",
+    "contents": "",
+    "dirty": false,
+    "created": 1704985031319.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Sourcelh4pkkr53orq",
+        "cursorPosition": "19,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1705405634,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1705405635628,
+    "read_only": false,
+    "read_only_alternatives": []
+}

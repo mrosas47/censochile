@@ -1,0 +1,18 @@
+library(rtoolbox)
+library(sf)
+library(stringr)
+
+wdEnsure('N:/work/OCUC/Cartografía censal')
+
+r <- str_pad(c(2:16), '0', side = 'left', width = 2)
+
+b <- st_read(str_glue('R01/COMUNA_C17.shp'))
+
+for (i in r) {
+  
+  shp <- st_read(dsn = str_glue('R{i}/COMUNA_C17.shp'))
+  b <- rbind(b, shp)
+  
+}
+
+b |> st_write(str_glue('R99/COMUNA_C17.shp'))
